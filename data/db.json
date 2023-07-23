@@ -1,0 +1,46 @@
+{
+  "farmcentrals": [
+    {
+      "email": "Ben@gmail.com",
+      "password": "Ben123",
+      "fullname": "Ben Hogen",
+      "id": 1
+    },
+    {
+      "email": "Derrick@gmail.com",
+      "password": "Derrick123",
+      "fullname": "Derrick Wattz",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Product 1",
+      "productPrice": 10,
+      "productQuantity": 50,
+      "productid": 1
+    },
+    {
+      "id": 1,
+      "productName": "Product 2",
+      "productPrice": 15,
+      "productQuantity": 30,
+      "productid": 2
+    },
+    {
+      "id": 2,
+      "productName": "Product 3",
+      "productPrice": 8,
+      "productQuantity": 40,
+      "productid": 3
+    },
+    {
+      "farmerId": "2",
+      "productName": "erere",
+      "productPrice": 1,
+      "productQuantity": 4,
+      "id": 3
+    }
+  ]
+}

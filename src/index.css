@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #530ceb;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #4b0de7;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #220cec;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* farmer previews / list */
+.farmcentral-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.farmcentral-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.farmcentral-preview h2 {
+  font-size: 20px;
+  color: #2a0bef;
+  margin-bottom: 8px;
+}
+.farmcentral-preview a{
+  text-decoration: none;
+}
+/* farmer details page */
+.farmcentral-details h2 {
+  font-size: 20px;
+  color: #600eef;
+  margin-bottom: 10px;
+}
+.farmcentral-details div {
+  margin: 20px 0;
+}
+.farmcentral-details button {
+  background: #450ae8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new farmer form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #5a0bed;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #4007ed;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.products {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.products h2 {
+  font-size: 20px;
+  color: #230dec;
+  margin-bottom: 20px;
+}
+
+.products label {
+  text-align: left;
+  display: block;
+}
+
+.products select {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.products form div {
+  margin-bottom: 20px;
+}
+
+.products input[type="text"],
+.products input[type="number"] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.products button {
+  background: #4408ec;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
